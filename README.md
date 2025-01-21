@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Heo-Jeong-Eun/Deep-Learning-Study/tree/Jen"><b>Jen</b></td>
-    <td align="center"><a href="https://github.com/Heo-Jeong-Eun/Deep-Learning-Study/tree/MJ"><b>MJ</b></td>
+    <td align="center"><a href="https://github.com/Heo-Jeong-Eun/Deep-Learning-Paper-Review/tree/MJ"><b>MJ</b></td>
   </tr>
 </table>
 
