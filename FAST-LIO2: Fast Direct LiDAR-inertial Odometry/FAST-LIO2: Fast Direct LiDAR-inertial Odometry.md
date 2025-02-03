@@ -88,10 +88,10 @@ ikd-Tree는 기존의 kd-Tree를 개선한 **Incremental Data** 구조이다.
 | FAST LIO | FAST LIO2 |
 | --- | --- |
 | **LOAM Based Feature Extraction** <br> Lidar Odometry and Mapping 기반 Feature Extraction 방식을 사용한다. 특정한 Point(Edge, 평면)을 추출해 Mapping, Pose를 Estimation  | **Direct Point Registration** <br> LOAM 기반 Feature Extraction을 제거, Point Cloud를 직접 정합하는 방식(Direct Registration) 방식으로 전환한다. 이는 Feature Extraction 과정의 불필요한 계산을 제거, LiDAR Sensor에서 높은 성능을 제공할 수 있다.  |
-| **Forward, Backward Propagation** Data의 Forward, Backward Propagation(전파) 방식을 사용해 상태를 예측하고 보정한다.  | **Forward, Backward Propagation** Data의 Forward, Backward Propagation(전파) 방식을 사용해 상태를 예측하고 보정한다.  |
-| **Iterated Kalman Filter** Iterated Kalman Filter를 사용해 Pose Estimation 정확도를 높인다.  | **Iterated Kalman Filter** Iterated Kalman Filter를 사용해 Pose Estimation 정확도를 높인다.  |
-| **Efficient Kalman Gain** 계산 효율성을 높이기 위해 최적화 된 Kalman Gain을 사용한다.  | **Efficient Kalman Gain** 계산 효율성을 높이기 위해 최적화 된 Kalman Gain을 사용한다.  |
-| **kd-Tree Based Mapping** kd-Tree 구조를 사용해 Point Cloud Data를 관리하고 Mapping 한다.  | **ikd-Tree Mapping** kd-Tree를 대신해 ikd-Tree 구조를 사용, Realtime Data 삽입, 삭제, Re-Balancing을 통해 속도를 대폭 개선하며 kNN 검색 속도를 크게 향상시켰다.  |
+| **Forward, Backward Propagation** <br> Data의 Forward, Backward Propagation(전파) 방식을 사용해 상태를 예측하고 보정한다.  | **Forward, Backward Propagation** <br> Data의 Forward, Backward Propagation(전파) 방식을 사용해 상태를 예측하고 보정한다.  |
+| **Iterated Kalman Filter** <br> Iterated Kalman Filter를 사용해 Pose Estimation 정확도를 높인다.  | **Iterated Kalman Filter** <br> Iterated Kalman Filter를 사용해 Pose Estimation 정확도를 높인다.  |
+| **Efficient Kalman Gain** <br> 계산 효율성을 높이기 위해 최적화 된 Kalman Gain을 사용한다.  | **Efficient Kalman Gain** <br> 계산 효율성을 높이기 위해 최적화 된 Kalman Gain을 사용한다.  |
+| **kd-Tree Based Mapping** <br> kd-Tree 구조를 사용해 Point Cloud Data를 관리하고 Mapping 한다.  | **ikd-Tree Mapping** <br> kd-Tree를 대신해 ikd-Tree 구조를 사용, Realtime Data 삽입, 삭제, Re-Balancing을 통해 속도를 대폭 개선하며 kNN 검색 속도를 크게 향상시켰다.  |
 1. **LOAM Feature Based → Direct Point Registration로 Odometry 방식 변화** 
     - LOAM Feature Based : Point 주변의 Curvature(곡률)를 측정해 Edge, 평면 Feature Point으로 분류
     - Direct Point Registration : ikd-Tree의 빠른 검색 속도로 인해 Feature Extraction 없이 바로 Point Registration(등록)
