@@ -21,7 +21,7 @@ Object의 Appearance Feature를 학습하기 위해 CNN을 활용한다.
 
 ### 실험 결과에서 Deep SORT가 기존 SORT보다 우수한 점은 무엇인가
 
-MOT16 벤치마크 실험 결과 Deep SORT는 기존 SORT 대비 **ID 유지 성능이 향상되었으며, 실시간 성능을 유지**했다. 
+MOT16 Banchmark 실험 결과 Deep SORT는 기존 SORT 대비 **ID 유지 성능이 향상되었으며, 실시간 성능을 유지**했다. 
 
 ### Deep SORT의 한계점은 무엇인가
 
