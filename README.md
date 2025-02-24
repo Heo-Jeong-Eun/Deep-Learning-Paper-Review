@@ -35,14 +35,14 @@
 ## 🫡 rule
 
 ### schedule && progress 
-> - 서로 번갈아가며 한주동안 읽을 논문을 선정하고 간단히 요약해 Github에 Push
-> - 주에 한번 온 / 오프라인 스터디를 통해 일정 조율 및 논문에 관련된 내용을 질의응답 시간을 갖습니다. 
+> - 각자 선택한 논문을 읽고 간단히 요약해 Github에 Push (Review 할 논문은 미리 공유)
+> - 매주 월요일마다 온 / 오프라인 스터디를 통해 일정 조율 및 논문에 관련된 내용을 질의응답 시간을 갖습니다. 
 > - 코드나 파일은 Commit Rule에 맞게 '개인' Branch PR을 올립니다. **(Assignees에 본인 Tag, Reviewer에 상대방 Tag)**
 
-> | Date | Content | Review |
+> | Date | Jen | MJ | 
 > | --- | --- | --- |
-> | 2025-01-13 ~ 2025-01-20 | <a href="https://arxiv.org/abs/2107.06829">FAST LIO2 | 2025-01-23 |
-> | 2025-01-20 ~ 2025-01-27 | <a href="https://arxiv.org/abs/1703.07402">DeepSORT | 2025-01-31 |
+> | 2025-02-03 | <a href="https://arxiv.org/abs/1703.07402">DeepSORT | <a href="https://arxiv.org/abs/2107.06829">FAST LIO2 |
+> | 2025-02-24 | <a href ="https://arxiv.org/pdf/2110.06864">ByteTrack MOT by Associating Every Detection Box | <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10812747">3D LiDAR MOT Using Deep Reinforcement Learning |
 
 ### commit 
 > ```shell
